@@ -1,0 +1,43 @@
+.testimonial-card {
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.stars {
+  display: flex;
+  gap: 0.25rem;
+  color: var(--color-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.quote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-text);
+  margin-bottom: 2rem;
+  flex-grow: 1;
+  line-height: 1.7;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
+}
+
+.author-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.author-role {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
